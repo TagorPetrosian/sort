@@ -1,2 +1,15 @@
 "use strict";
-console.log('here');
+Object.defineProperty(exports, "__esModule", { value: true });
+var LinkedList_1 = require("./LinkedList");
+// const charactersCollection = new CharactersCollection('sdfsdfl');
+// charactersCollection.sort();
+// console.log(charactersCollection);
+// const numbersCollection = new NumbersCollection([1, 3, -4, 0]);
+// numbersCollection.sort();
+// console.log(numbersCollection);
+var list = new LinkedList_1.LinkedList();
+list.add(500);
+list.add(5);
+list.add(400);
+list.sort();
+list.print();
